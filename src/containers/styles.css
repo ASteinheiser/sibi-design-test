@@ -1,0 +1,103 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: rgb(40, 40, 40);
+}
+
+.innerWidth {
+  width: 860px;
+
+  margin: auto;
+}
+
+.smallerWidth {
+  width: 450px;
+
+  margin: auto;
+}
+
+.centerTextArea {
+  text-align: center;
+}
+
+.textBox {
+  font-size: 18px;
+
+  margin-top: 60px;
+  padding: 7px;
+
+  width: 400px;
+  background: #efefef;
+}
+
+.acceptButton {
+  padding: 10px;
+  margin-left: 15px;
+
+  font-size: 18px;
+  color: #efefef;
+  background: #4072b4;
+
+  border: none;
+  border-radius: 3px;
+}
+
+.acceptButton:hover {
+  cursor: pointer;
+  background: rgba(64, 114, 180, 0.8);
+}
+
+.outerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin-top: 30px;
+}
+
+.proceedButton {
+  margin-top: 35px;
+  padding: 12px;
+
+  font-size: 18px;
+  color: #efefef;
+  background: #4072b4;
+
+  border: none;
+  border-radius: 3px;
+}
+
+.proceedButton:hover {
+  cursor: pointer;
+  background: rgba(64, 114, 180, 0.8);
+}
+
+.costOverview {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.costChild {
+  display: flex;
+  justify-content: space-between;
+}
+
+.optionBox {
+  border-radius: 5px;
+  padding: 12px;
+
+  cursor: pointer;
+}
+
+.optionBox:hover {
+  background: #3a3a3a;
+}

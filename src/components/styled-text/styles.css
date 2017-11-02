@@ -1,0 +1,70 @@
+.font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.white {
+  color: #DFDCE3;
+}
+
+.pearl {
+  color: #c5c5c5;
+}
+
+.gray {
+  color: #373737;
+}
+
+.blue {
+  color: #3f72b5;
+}
+
+.red {
+  color: #a90000;
+}
+
+.black {
+  color: #000000;
+}
+
+.regular {
+  font-size: 28px;
+}
+
+.billboard {
+  font-size: 60px;
+}
+
+.large {
+  font-size: 40px;
+}
+
+.small {
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.topAlign {
+  vertical-align: top;
+  display: table-cell;
+}
+
+.hoverBlue:hover {
+  color: #328a7d;
+}
+
+.hoverRed:hover {
+  color: #a90000;
+}
+
+.hoverRedOutline:hover {
+  color: #a90000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.hoverUnderline:hover {
+  padding: 0 0 10px 0;
+  border-bottom: 2px solid #000000;
+}
