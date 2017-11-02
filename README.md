@@ -1,4 +1,4 @@
-# Ophera Web Application
+# Design Test
 
 #### Written in React.js
 
