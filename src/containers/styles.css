@@ -22,6 +22,9 @@
   width: 450px;
 
   margin: auto;
+  background: rgba(199, 199, 199, 0.83);
+  border-radius: 7px;
+  padding: 25px;
 }
 
 .centerTextArea {
@@ -99,5 +102,5 @@
 }
 
 .optionBox:hover {
-  background: #3a3a3a;
+  background: rgba(64, 114, 180, 0.75);
 }

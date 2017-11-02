@@ -23,7 +23,7 @@ export default class Confirmation extends React.Component {
 
   myColor(position) {
     if (this.state.active1 === position) {
-      return "#505050";
+      return "rgba(64, 114, 180, 0.75)";
     }
     return "";
   }
@@ -38,7 +38,7 @@ export default class Confirmation extends React.Component {
 
   myColor1(position) {
     if (this.state.active2 === position) {
-      return "#505050";
+      return "rgba(64, 114, 180, 0.75)";
     }
     return "";
   }
@@ -52,10 +52,10 @@ export default class Confirmation extends React.Component {
           <br />
           <div>
             <div className={[styles.optionBox]} style={{background: this.myColor(0)}} onClick={() => {this.toggle(0)}}>
-              <StyledText text='Standard Shipping (+$0)' size='small' color='pearl' />
+              <StyledText text='Standard Shipping (+$0)' size='small' color='gray' />
             </div>
             <div className={[styles.optionBox]} style={{background: this.myColor(1)}} onClick={() => {this.toggle(1)}}>
-              <StyledText text='Two-Day Shipping (+$10)' size='small' color='pearl' />
+              <StyledText text='Two-Day Shipping (+$10)' size='small' color='gray' />
             </div>
           </div>
           <br />
@@ -65,34 +65,34 @@ export default class Confirmation extends React.Component {
           <br />
           <div>
             <div className={[styles.optionBox]} style={{background: this.myColor1(0)}} onClick={() => {this.toggle1(0)}}>
-              <StyledText text='Manual Installation (+$0)' size='small' color='pearl' />
+              <StyledText text='Manual Installation (+$0)' size='small' color='gray' />
             </div>
             <div className={[styles.optionBox]} style={{background: this.myColor1(1)}} onClick={() => {this.toggle1(1)}}>
-              <StyledText text='Professional Installation (+$20)' size='small' color='pearl' />
+              <StyledText text='Professional Installation (+$20)' size='small' color='gray' />
             </div>
           </div>
           <br />
           <br />
           <StyledText text='Order Total: ' size='regular' color='blue' />
-          <StyledText text='$185' size='regular' color='pearl' />
+          <StyledText text='$185' size='regular' color='gray' />
           <br />
           <br />
           <div className={[styles.costOverview]}>
             <div className={[styles.costChild]}>
-              <StyledText text='Microwave' size='small' color='pearl' />
-              <StyledText text='($55)' size='small' color='pearl' />
+              <StyledText text='Microwave' size='small' color='gray' />
+              <StyledText text='($55)' size='small' color='gray' />
             </div>
             <div className={[styles.costChild]}>
-              <StyledText text='Refrigerator' size='small' color='pearl' />
-              <StyledText text='($100)' size='small' color='pearl' />
+              <StyledText text='Refrigerator' size='small' color='gray' />
+              <StyledText text='($100)' size='small' color='gray' />
             </div>
             <div className={[styles.costChild]}>
-              <StyledText text='Two-Day Shipping' size='small' color='pearl' />
-              <StyledText text='($10)' size='small' color='pearl' />
+              <StyledText text='Two-Day Shipping' size='small' color='gray' />
+              <StyledText text='($10)' size='small' color='gray' />
             </div>
             <div className={[styles.costChild]}>
-              <StyledText text='Professional Installation' size='small' color='pearl' />
-              <StyledText text='($20)' size='small' color='pearl' />
+              <StyledText text='Professional Installation' size='small' color='gray' />
+              <StyledText text='($20)' size='small' color='gray' />
             </div>
           </div>
           <Link to='/finished'>
