@@ -10,10 +10,9 @@ export default class ItemCard extends React.Component {
   constructor(props) {
     super(props)
     this.state = { bgColor: 'rgba(255, 255, 255, 0.74)' }
-    this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick(e) {
+  handleClick = (e) => {
     e.preventDefault();
     console.log(this.state.bgColor)
     if(this.state.bgColor === 'rgba(255, 255, 255, 0.74)') {

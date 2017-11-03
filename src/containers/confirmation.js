@@ -8,8 +8,6 @@ import styles from './styles.css'
 export default class Confirmation extends React.Component {
   constructor(props) {
     super(props)
-    this.toggle = this.toggle.bind(this)
-    this.myColor = this.myColor.bind(this)
     this.state = { active1: null, active2: null }
   }
 
